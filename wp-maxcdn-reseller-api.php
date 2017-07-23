@@ -80,9 +80,41 @@ if ( ! class_exists( 'MaxCdnResellerAPI' ) ) {
 		
 		/* USERS. */
 		
+		public function list_users() {
+			
+		}
+		
+		public function create_user() {
+			
+		}
+		
+		public function get_user() {
+			
+		}
+		
+		public function update_user() {
+			
+		}
+		
+		public function delete_user() {
+			
+		}
+		
 		/* ZONES. */
 		
 		/* REPORTS. */
+		
+		public function get_account_stats() {
+			
+		}
+		
+		public function get_all_zone_stats() {
+			
+		}
+		
+		public function get_zone_stats() {
+			
+		}
 		
 		/* RAW LOGS. */
 		
