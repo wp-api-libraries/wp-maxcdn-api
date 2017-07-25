@@ -102,6 +102,50 @@ if ( ! class_exists( 'MaxCdnResellerAPI' ) ) {
 		
 		/* ZONES. */
 		
+		public function list_zones() {
+			
+		}
+		
+		public function get_zone_summary() {
+			
+		}
+		
+		public function get_zone_count() {
+			
+		}
+		
+		public function list_pull_zones() {
+			
+		}
+		
+		public function list_pull_zone_custom_domains() {
+			
+		}
+		
+		public function list_push_zones() {
+			
+		}
+		
+		public function list_push_zone_custom_domains() {
+			
+		}
+		
+		public function list_vod_zones() {
+			
+		}
+		
+		public function list_vod_zone_custom_domains() {
+			
+		}
+		
+		public function get_zones_ssl() {
+			
+		}
+		
+		public function get_zone_upstream_details() {
+			
+		}
+		
 		/* REPORTS. */
 		
 		public function get_account_stats() {
@@ -112,7 +156,11 @@ if ( ! class_exists( 'MaxCdnResellerAPI' ) ) {
 			
 		}
 		
-		public function get_zone_stats() {
+		public function get_zone_stats( $company_alias, $client_id, $zone_id, $report_type ) {
+			
+		}
+		
+		public function list_nodes( $company_alias, $client_id ) {
 			
 		}
 		
